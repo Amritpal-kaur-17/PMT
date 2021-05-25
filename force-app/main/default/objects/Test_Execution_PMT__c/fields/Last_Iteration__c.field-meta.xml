@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Iteration__c</fullName>
+    <externalId>false</externalId>
+    <label>Last Iteration</label>
+    <summarizedField>Test_Iteration__c.Iteration_Number_PMT__c</summarizedField>
+    <summaryFilterItems>
+        <field>Test_Iteration__c.Status_PMT__c</field>
+        <operation>equals</operation>
+        <value>Failed, Completed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Test_Iteration__c.Test_Execution_PMT__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

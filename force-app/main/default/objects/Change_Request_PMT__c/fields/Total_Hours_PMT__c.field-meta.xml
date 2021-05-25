@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Hours_PMT__c</fullName>
+    <externalId>false</externalId>
+    <formula>(  Planning_PMT__c + Analysis_PMT__c + Design_in_hours_PMT__c + Development_in_hours_PMT__c + System_Testing_PMT__c + UAT_PMT__c + Deployed_PMT__c ) *  (  Contigency_Percentage_PMT__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

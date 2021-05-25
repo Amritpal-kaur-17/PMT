@@ -1,0 +1,9 @@
+Hi {!Defect_PMT__c.Assigned_to_PMT__c},
+
+We have assigned defect {!Defect_PMT__c.Name} to you. Kindly, follow the below link for defect details.
+
+Defects Details
+Defect Title : {!Defect_PMT__c.00N5I000000UPk2}
+Open Date : {!Defect_PMT__c.Open_Date_PMT__c}
+
+P.S. : Please do not reply on this email.

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Justication_should_not_be_blank</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(  ISBLANK( Business_Justification_PMT__c )  , ISPICKVAL( Priority_PMT__c , &quot;critical&quot;))</errorConditionFormula>
+    <errorMessage>Business Justication should not be blank</errorMessage>
+</ValidationRule>

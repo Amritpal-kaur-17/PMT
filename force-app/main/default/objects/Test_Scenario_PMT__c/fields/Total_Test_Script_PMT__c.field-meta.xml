@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Test_Script_PMT__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Test Script</label>
+    <summaryForeignKey>Test_Script_PMT__c.Test_Scenario_PMT__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

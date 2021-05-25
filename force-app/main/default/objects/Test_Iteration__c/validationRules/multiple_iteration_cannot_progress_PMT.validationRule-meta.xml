@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>multiple_iteration_cannot_progress_PMT</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Test_Execution_PMT__r.Current_Iteration_PMT__c != Iteration_Number_PMT__c ,  NOT(   ISPICKVAL( Status_PMT__c , &quot;Completed&quot;)),Not( ISPICKVAL( Status_PMT__c , &quot;Failed&quot;) ))</errorConditionFormula>
+    <errorMessage>it is not possibled to have two iteration in  progress</errorMessage>
+</ValidationRule>

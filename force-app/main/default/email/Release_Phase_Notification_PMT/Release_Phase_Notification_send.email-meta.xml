@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send  Release Phase Notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Release Phase Notification send</name>
+    <style>none</style>
+    <subject>Release Phase Change Notification</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

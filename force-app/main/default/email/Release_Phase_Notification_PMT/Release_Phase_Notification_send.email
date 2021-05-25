@@ -1,0 +1,8 @@
+Hi all, 
+The Project {!Release__c.Project_PMT__c} on this Release{!Release__c.Name} has been changed.The New Release Phase {!ReleasPhase_PMT__ce__c}has been Uploaded. Kindly you will be condsidered these appropriate changes.
+
+Release Detail :
+New Release Phase : {!ReleasPhase_PMT__ce__c.}
+
+
+P.S. : Please do not reply on this email.

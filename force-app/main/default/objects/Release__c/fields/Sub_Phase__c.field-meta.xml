@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Phase__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub-Phase</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Phase_PMT__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Completed Rejected</fullName>
+                <default>false</default>
+                <label>Completed Rejected</label>
+            </value>
+            <value>
+                <fullName>System Testing</fullName>
+                <default>false</default>
+                <label>System Testing</label>
+            </value>
+            <value>
+                <fullName>User Acceptance Testing</fullName>
+                <default>false</default>
+                <label>User Acceptance Testing</label>
+            </value>
+            <value>
+                <fullName>System Setup</fullName>
+                <default>false</default>
+                <label>System Setup</label>
+            </value>
+            <value>
+                <fullName>Deployment Planning</fullName>
+                <default>false</default>
+                <label>Deployment Planning</label>
+            </value>
+            <value>
+                <fullName>Deployment</fullName>
+                <default>false</default>
+                <label>Deployment</label>
+            </value>
+            <value>
+                <fullName>Smoke Test</fullName>
+                <default>false</default>
+                <label>Smoke Test</label>
+            </value>
+            <value>
+                <fullName>Under Review</fullName>
+                <default>false</default>
+                <label>Under Review</label>
+            </value>
+            <value>
+                <fullName>Plan in progress</fullName>
+                <default>false</default>
+                <label>Plan in progress</label>
+            </value>
+            <value>
+                <fullName>Budget</fullName>
+                <default>false</default>
+                <label>Budget</label>
+            </value>
+            <value>
+                <fullName>Plan finalize</fullName>
+                <default>false</default>
+                <label>Plan finalize</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Under Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Plan in progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planning</controllingFieldValue>
+            <valueName>Plan finalize</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <valueName>System Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Testing</controllingFieldValue>
+            <valueName>User Acceptance Testing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>System Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Deployment Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Deployment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Production</controllingFieldValue>
+            <valueName>Smoke Test</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>closed</controllingFieldValue>
+            <valueName>Completed Rejected</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

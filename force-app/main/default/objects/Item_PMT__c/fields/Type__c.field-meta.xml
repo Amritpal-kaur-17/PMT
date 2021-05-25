@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Object</fullName>
+                <default>false</default>
+                <label>Object</label>
+            </value>
+            <value>
+                <fullName>App</fullName>
+                <default>false</default>
+                <label>App</label>
+            </value>
+            <value>
+                <fullName>Profile</fullName>
+                <default>false</default>
+                <label>Profile</label>
+            </value>
+            <value>
+                <fullName>Role</fullName>
+                <default>false</default>
+                <label>Role</label>
+            </value>
+            <value>
+                <fullName>Field</fullName>
+                <default>false</default>
+                <label>Field</label>
+            </value>
+            <value>
+                <fullName>Report</fullName>
+                <default>false</default>
+                <label>Report</label>
+            </value>
+            <value>
+                <fullName>Dashboard</fullName>
+                <default>false</default>
+                <label>Dashboard</label>
+            </value>
+            <value>
+                <fullName>Report Type</fullName>
+                <default>false</default>
+                <label>Report Type</label>
+            </value>
+            <value>
+                <fullName>Record Type</fullName>
+                <default>false</default>
+                <label>Record Type</label>
+            </value>
+            <value>
+                <fullName>Page Layout</fullName>
+                <default>false</default>
+                <label>Page Layout</label>
+            </value>
+            <value>
+                <fullName>Button</fullName>
+                <default>false</default>
+                <label>Button</label>
+            </value>
+            <value>
+                <fullName>Custom Metadata</fullName>
+                <default>false</default>
+                <label>Custom Metadata</label>
+            </value>
+            <value>
+                <fullName>Custom Settings</fullName>
+                <default>false</default>
+                <label>Custom Settings</label>
+            </value>
+            <value>
+                <fullName>Label</fullName>
+                <default>false</default>
+                <label>Label</label>
+            </value>
+            <value>
+                <fullName>Link</fullName>
+                <default>false</default>
+                <label>Link</label>
+            </value>
+            <value>
+                <fullName>Action</fullName>
+                <default>false</default>
+                <label>Action</label>
+            </value>
+            <value>
+                <fullName>Lightning Component</fullName>
+                <default>false</default>
+                <label>Lightning Component</label>
+            </value>
+            <value>
+                <fullName>Visual Force Page</fullName>
+                <default>false</default>
+                <label>Visual Force Page</label>
+            </value>
+            <value>
+                <fullName>Search Layout</fullName>
+                <default>false</default>
+                <label>Search Layout</label>
+            </value>
+            <value>
+                <fullName>Class</fullName>
+                <default>false</default>
+                <label>Class</label>
+            </value>
+            <value>
+                <fullName>Trigger</fullName>
+                <default>false</default>
+                <label>Trigger</label>
+            </value>
+            <value>
+                <fullName>Validation Rule</fullName>
+                <default>false</default>
+                <label>Validation Rule</label>
+            </value>
+            <value>
+                <fullName>Custom Metadata Values</fullName>
+                <default>false</default>
+                <label>Custom Metadata Values</label>
+            </value>
+            <value>
+                <fullName>Process</fullName>
+                <default>false</default>
+                <label>Process</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>Workflow</fullName>
+                <default>false</default>
+                <label>Workflow</label>
+            </value>
+            <value>
+                <fullName>Field Update</fullName>
+                <default>false</default>
+                <label>Field Update</label>
+            </value>
+            <value>
+                <fullName>Email Template</fullName>
+                <default>false</default>
+                <label>Email Template</label>
+            </value>
+            <value>
+                <fullName>Public Group</fullName>
+                <default>false</default>
+                <label>Public Group</label>
+            </value>
+            <value>
+                <fullName>Folder</fullName>
+                <default>false</default>
+                <label>Folder</label>
+            </value>
+            <value>
+                <fullName>Queue</fullName>
+                <default>false</default>
+                <label>Queue</label>
+            </value>
+            <value>
+                <fullName>Tab</fullName>
+                <default>false</default>
+                <label>Tab</label>
+            </value>
+            <value>
+                <fullName>LWC</fullName>
+                <default>false</default>
+                <label>LWC</label>
+            </value>
+            <value>
+                <fullName>Translation</fullName>
+                <default>false</default>
+                <label>Translation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

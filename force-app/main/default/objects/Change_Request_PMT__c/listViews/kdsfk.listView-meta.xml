@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>kdsfk</fullName>
+    <columns>NAME</columns>
+    <columns>Close_Date_PMT__c</columns>
+    <columns>Business_Justification_PMT__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Planned_Release_PMT__c</field>
+        <operation>equals</operation>
+        <value>1.0</value>
+    </filters>
+    <label>kdsfk</label>
+</ListView>
